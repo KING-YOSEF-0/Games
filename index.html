@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Bubble Arcade - 30 classic games by KING_YOSEF_">
+<title>Bubble Arcade · by KING_YOSEF_</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bubbles" aria-hidden="true"></canvas>
+<div id="cursor" aria-hidden="true"></div>
+
+<header class="hero">
+  <h1>🫧 Bubble Arcade</h1>
+  <p class="tag">30 cozy classic games · play on desktop or phone</p>
+  <p class="dev">Developed by <b>KING_YOSEF_</b></p>
+  <input id="search" type="search" placeholder="Search games…" aria-label="Search games">
+  <p id="count"></p>
+</header>
+
+<main id="grid" class="grid" aria-label="Game list"></main>
+
+<section id="stage" class="stage" hidden>
+  <div class="panel">
+    <div class="bar">
+      <button id="back" class="btn">← Back</button>
+      <h2 id="gtitle"></h2>
+      <span class="dev small">by KING_YOSEF_</span>
+    </div>
+    <p id="status" class="status"></p>
+    <div id="box" class="box"></div>
+  </div>
+</section>
+
+<footer>Made with 💖 by <b>KING_YOSEF_</b> · Bubble Arcade</footer>
+<script src="app.js"></script>
+</body>
+</html>
